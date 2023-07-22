@@ -7,7 +7,9 @@ Simple helper to reuse the log-to-file function in the rest of our libs.
 - Init the logger in your main function
 
 ```go
-import (github.com/bocha-io/logger)
+import (
+    "github.com/bocha-io/logger"
+)
 ...
 
 // Log to file
